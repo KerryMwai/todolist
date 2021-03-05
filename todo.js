@@ -10,12 +10,12 @@ $("document").ready(function () {
             $(this).remove();
         })
     })
-    //add project button
+    //add school level button
     $("#btnAddSchoolLevel").button().click(function () {
         $("#level-dialog").dialog({
             width: 400, resizable: false, modal: true,
             buttons: {
-                //add button of project
+                //add button of school level
                 "Add new Level": function () {
                     var projectName = $("#new-level").val();
                     var replaceSpaces=projectName.split(" ").join("_")
@@ -27,7 +27,7 @@ $("document").ready(function () {
                     $("#new-level").val("");
                     $(this).dialog("close");
                 },
-                //cancel button of project
+                //cancel button of school level 
                 "Cancel": function () {
                     $("#new-level").val("");
                     $(this).dialog("close");
@@ -36,7 +36,7 @@ $("document").ready(function () {
         });
     });
 
-    //add task button
+    //add shool button
     $("#btnAddSchool").button().click(function () {
         $("#school-dialog").dialog({
             width: 400, resizable: false, modal: true,
