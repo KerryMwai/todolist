@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do list</title>
+    <script src="jquery.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script src="todo.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jquery-ui.css">
+    <link rel="stylesheet" href="jquery-ui.min.css">
+    <link rel="stylesheet" href="jquery-ui.structure.css">
+    <link rel="stylesheet" href="jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="jquery-ui.theme.css">
+    <link rel="stylesheet" href="jquery-ui.theme.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Level and Their Schools In Kenya</h2>
+        <button id="btnAddSchoolLevel">Add School Level</button>
+      <div id="learningInsititutions">
+          <ul id="main">
+              <!-- You can rearrange the order of these by dragging either one of them right or drag to left -->
+              <!-- To delete check the checkbox and it will go -->
+              <li><a href="#primary" class="person">Primary</a></li>
+              <li><a href="#secondary" class="work">Secondary</a></li>
+          </ul>
+
+          <ol id="primary">
+              <!-- You can rearrange the order by dragging either of the items upwards or downwords -->
+              <!-- To delete check the checkbox and it will go -->
+              <li><input type="checkbox">Kitale School</li>
+              <li><input type="checkbox">Kinyoro Primary School</li>
+          </ol>
+
+          <ol id="secondary">
+                <!-- You can rearrange the order by dragging either of the items downwords -->
+              <li><input type="checkbox">Maliki Boys High School</li>
+              <li><input type="checkbox">St. Anthony Boys High School</li>
+              <li><input type="checkbox">St. Joseph Girls High School</li>
+              <li><input type="checkbox">St. Brigit Girls High School</li>
+              <li><input type="checkbox">Teremi Boys High School</li>
+              <li><input type="checkbox">Aliance Girls High School</li>
+              <li><input type="checkbox">Moi Girls High School</li>
+             
+          </ol>
+      </div>
+      <button id="btnAddSchool">Add School</button>
+
+      <!-- Level dialog -->
+      <div id="level-dialog" style="display: none;" title="Add a Level">
+          <label for="new-level">Level name: </label>
+          <input type="text" id="new-level">
+      </div>
+      <!-- school dialog -->
+      <div id="school-dialog" style="display: none;" title="Add a School">
+          <label for="new-school">School name: </label>
+          <input type="text" id="new-school">
+      </div>
+    </div>
+    <script src="todolist.js"></script>
+</body>
+</html>

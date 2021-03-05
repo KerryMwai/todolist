@@ -1,0 +1,72 @@
+#projects {
+	width: 650px;
+	height: 250px;
+	margin: 0px auto;
+}
+
+.container {
+	width: 700px;
+	min-height: 400px;
+	margin: 70px auto;
+	padding: 10px 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 6px 2px;
+}
+
+#main {
+	height: 40px;
+	background-color: #6eb7d6;
+	border-radius: 4px;
+	list-style: none;
+	padding: 40px 0 2px 10px;
+}
+
+#main > li {
+	display: inline-block;
+}
+
+#main > li > a {
+	color: rgb(8, 71, 12);
+	text-decoration: none;
+	font-weight: normal;
+}
+
+h2 {
+	color: rgb(125, 181, 66);
+	text-align: center;
+}
+
+ol li {
+	border: 1px dotted black;
+	cursor: pointer;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+ol li:hover {
+	background-color: #6eb7d6;
+	color: rgb(119, 109, 109);
+}
+
+#btnAddSchoolLevel {
+	margin-left: 530px;
+	margin-bottom: 20px;
+	background-color: #6ec7e2;
+	width: 170px;
+	outline: none;
+}
+
+#btnAddSchoolLevel:hover {
+	background-color: #097596;
+	color: rgb(223, 206, 206);
+}
+#btnAddSchool {
+	margin-left: 570px;
+	margin-top: 20px;
+	background-color: #6ec7e2;
+	outline: none;
+}
+#btnAddSchool:hover {
+	background-color: #097596;
+	color: rgb(223, 206, 206);
+}
